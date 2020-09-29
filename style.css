@@ -1,6 +1,7 @@
 img#logo {
   width: 30px;
   margin-right: 2px;
+  margin-left: 10px;
 }
 
 .menu {
@@ -19,4 +20,69 @@ input {
 
 .ml-auto {
   margin-left: 0 !important;
+}
+
+a.menu {
+  color: white;
+}
+
+a.nav-link {
+  margin-right: 10px !important;
+}
+
+a.brand {
+  font-family: 'tradegothiclt', sans-serif;
+  letter-spacing: -2px;
+}
+
+
+/* body */
+
+body {
+  background-color: #181818;
+}
+
+div.video {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+p.hashtags {
+  color: rgb(62, 166, 255);
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1.5rem;
+}
+
+p.title {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 24px;
+  margin-top: 0px
+}
+
+p.views {
+  margin-top: 15px !important;
+  color: rgb(170, 170, 170);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 21px;
+  margin-top: 0px
+}
+
+div.details {
+  margin-top: 15px;
+}
+
+p.likes {
+  float: right;
+  display: inline;
 }
